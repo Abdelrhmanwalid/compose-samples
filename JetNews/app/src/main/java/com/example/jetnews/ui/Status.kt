@@ -26,6 +26,7 @@ sealed class Screen {
     object Home : Screen()
     data class Article(val postId: String) : Screen()
     object Interests : Screen()
+    object Bookmarks : Screen()
 }
 
 @Model
